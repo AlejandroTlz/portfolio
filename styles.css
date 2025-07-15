@@ -286,7 +286,7 @@
 @media (max-width: 600px) {
   .passions-grid {
     grid-template-columns: 1fr !important;
-    gap: 15px;
+    gap: 50px;
   }
   .passion-card {
     padding: 15px;
