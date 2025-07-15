@@ -368,25 +368,6 @@
   transform: translateY(-2px);
 }
 
-/* Tooltip */
-.softskill-badge::after {
-  content: attr(data-desc);
-  position: absolute;
-  left: 50%;
-  top: -10px;
-  transform: translate(-50%, -100%);
-  background: #1de9b6;
-  color: #000;
-  font-size: 0.85rem;
-  padding: 6px 10px;
-  border-radius: 6px;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.25s ease, transform 0.25s ease;
-  z-index: 10; /* Pour apparaître au-dessus des autres badges */
-}
-
 
 .softskill-badge:hover::after {
   opacity: 1;
