@@ -283,7 +283,6 @@
   line-height: 1.5;
 }
   
-/* Forcer une seule colonne sur mobile */
 @media (max-width: 600px) {
   .passions-grid {
     grid-template-columns: 1fr !important;
@@ -292,7 +291,17 @@
   .passion-card {
     padding: 15px;
   }
+  .passion-text {
+    display: block !important;
+    white-space: normal !important;
+    overflow-wrap: break-word;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    align-items: unset !important;
+  }
 }
+
 
 /* Box sizing global */
 *, *::before, *::after {
@@ -311,13 +320,10 @@
 }
 
 .passion-text {
-  font-size: 1rem;
-  color: #cfd8dc;
-  text-align: justify;
-  flex-grow: 1;
-  display: flex;
-  align-items: flex-end;
+  display: block; /* ou inline-block */
+  align-items: unset; /* ou retirer complètement */
 }
+
 
   
 /* ===== SOFT‑SKILLS BADGE CLOUD ===== */
