@@ -286,11 +286,11 @@
 @media (max-width: 600px) {
   .passions-grid {
     grid-template-columns: 1fr !important;
-    gap: 50px;
+    row-gap: 40px;     /* espace vertical */
+    column-gap: 30px;  /* espace horizontal */
   }
   .passion-card {
     padding: 15px;
-    padding-bottom: 50px;
   }
   .passion-text {
     display: block !important;
