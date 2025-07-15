@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | Alexandre Tellez - Étudiant ingénieur informatique</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<canvas id="networkCanvas"></canvas>
+
+<div class="container">
+  <header>
+    <h1>Alexandre Tellez</h1>
+    <p>Computer science Engineer | Passionate about Securing Digital Systems</p>
+  </header>
+  <h2>About Me</h2>
+  <div style="text-align: center; margin-bottom: 30px;">
+  <button class="tab-button" onclick="showSection('about')">Presentation</button>
+  <button class="tab-button" onclick="showSection('languages')">Languages</button>
+  <button class="tab-button" onclick="showSection('softskills')">Soft Skills</button>
+  <button class="tab-button" onclick="showSection('passions')">Passions</button>
+</div>
+
+
+  <section id="about">
+    <p>My name is Alexandre Tellez. I am French-Spanish and currently in my second year of the computer engineering program at the private school CESI.</p>
+    <p>Since a young age, I have been passionate about IT, from assembling PCs to now managing projects in the healthcare sector.</p>
+    <p>I am currently working with Resapy, a French non-profit organization located at 2 rue de l'Ayguerote in Tarbes, where I have had the opportunity to engage with exciting projects and develop a strong interest in cybersecurity.</p>
+    <p>If you'd like to learn more about me or get in touch, don't hesitate, feel free to explore this website or download my CV ! :)</p>
+  </section>
+  
+  <section id="languages" class="hidden-section">
+  <p>🇫🇷 French : Native</p>
+  <p>🇪🇸 Spanish : B2</p>
+  <p>🇬🇧 English : B1+</p>
+</section>
+
+<section id="softskills" class="hidden-section">
+  <div class="softskills-cloud">
+    <div class="softskill-badge" data-desc="I enjoy untangling complex challenges">🧠Creativity</div>
+    <div class="softskill-badge" data-desc="I thrive in collaborative environments">🤝Teamwork</div>
+    <div class="softskill-badge" data-desc="I adapt my message to every audience">📚Continuous learner</div>
+    <div class="softskill-badge" data-desc="Constantly digging into new exploits & defenses">🕒Ponctual</div>
+    <div class="softskill-badge" data-desc="Tech that improves care keeps me motivated">❤️‍🩹Passion for Healthcare Tech</div>
+    <div class="softskill-badge" data-desc="Tech that improves care keeps me motivated">⚡Dynamic</div>
+  </div>
+</section>
+
+  
+<section id="passions" class="hidden-section">
+  <div class="passions-grid">
+    <div class="passion-card">
+      <div class="passion-title">🎸 Guitar</div>
+      <div class="passion-text">I've been devoted to flamenco guitar for over five years. It still brings me joy like when I was a child.</div>
+    </div>
+    <div class="passion-card">
+      <div class="passion-title">🎧 Music</div>
+      <div class="passion-text">Music is my favorite escape ! Every lyric has meaning, and every melody tells a story.</div>
+    </div>
+    <div class="passion-card">
+      <div class="passion-title">📚 Reading & Writing</div>
+      <div class="passion-text">Books fuel my imagination, and writing lets me bring those ideas to life with creativity and emotion.</div>
+    </div>
+    <div class="passion-card">
+      <div class="passion-title">🏃 Outdoor Activities</div>
+      <div class="passion-text">Running, cycling and walking (often with my dog) help me stay physically and mentally balanced.</div>
+    </div>
+    <div class="passion-card">
+      <div class="passion-title">🌍 Travel & Culture</div>
+      <div class="passion-text">Traveling inspires me deeply. Exploring new cultures and perspectives enriches my life. Being French-Spanish, I’ve felt at home in Spanish culture since childhood ! It still shapes who I am today</div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills">
+  <h2>Hard Skills</h2>
+<div class="skills-grid">
+<div class="skill-card">
+  <div class="skill-title">Cryptography</div>
+  <div class="sub-skills">
+    <div class="sub-skill">
+      <span>Symmetric Encryption</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Asymmetric Encryption</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>SSL/TLS Certificates</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 50%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Hashing</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 55%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>TLS/SSL Protocols</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 60%;"></div>
+      </div>
+    </div>
+  </div>
+</div>  
+  
+<div class="skill-card">
+  <div class="skill-title">System Administration</div>
+  <div class="sub-skills">
+    <div class="sub-skill">
+      <span>Windows Server (Active Directory, GPO, OU, DNS, DHCP)</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 95%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>RAID</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 80%;"></div>
+      </div>
+    </div>
+     <div class="sub-skill">
+      <span>Virtualization (Docker, VMware, Hyper-V)</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 85%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="skill-card">
+  <div class="skill-title">Network Security</div>
+  <div class="sub-skills">
+    <div class="sub-skill">
+      <span>VLAN</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 95%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Wireshark</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 85%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>IPS/IDS</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 70%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>EDR/XDR</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+  </div>
+</div>  
+  
+<div class="skill-card">
+  <div class="skill-title">Base de données</div>
+  <div class="sub-skills">
+    <div class="sub-skill">
+      <span>SQL</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 70%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>MySQL</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 70%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>PostgreSQL</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 60%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>MongoDB</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>ORM/ODM</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="skill-card">
+  <div class="skill-title">WEB</div>
+  <div class="sub-skills">
+    <div class="sub-skill">
+      <span>HTML/CSS</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>MERN Stack</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 70%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Tailwind CSS</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 60%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Responsive Design</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 50%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>JWT (JSON Web Tokens)</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 95%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>COOKIE</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 75%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Monolithic / Microservices architecture</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 100%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>API RESTful</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Load Balancer, API Gateway, Reverse Proxy</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="skill-card">
+  <div class="skill-title">Other</div>
+  <div class="sub-skills">
+    <div class="sub-skill">
+      <span>RGPD</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>GLPI</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <span>Git</span>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 80%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<h2>Project</h2>
+  
+<div style="text-align: center; margin-bottom: 30px;">
+  <button class="tab-button" onclick="showSection2('projects-school')">School project</button>
+  <button class="tab-button" onclick="showSection2('projects-perso')">Personal project</button>
+  <button class="tab-button" onclick="showSection2('projects-work')">Work project</button>
+</div>
+  
+<section id="projects-school">
+    <div class="project">
+      <h3>Social Media</h3>
+      <p>We were a team of four tasked with creating a social networking platform inspired by Twitter, 
+        where each user could post messages, like, comment, and log into their account. 
+        The project also included an admin dashboard to manage and delete user accounts when necessary.</p>
+      <a href="https://github.com/ReyseMujeriego/Breezy" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Backup Tool</h3>
+      <p>As a team of four, we were tasked with creating a tool to automatically copy selected files and folders to one 
+        or more backup locations (external hard drives, servers, etc.). This tool was capable of performing differential 
+        as well as incremental backups.</p>
+      <a href="https://github.com/ReyseMujeriego/BackupTool" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+</section>
+<section id="projects-perso" class="hidden-section">
+    <div class="project">
+      <h3>Website</h3>
+      <p>In 2019, as a team of two, we developed a website about a deportee from the Hautes-Pyrénées for 
+        the French Resistance competition. This project was awarded first prize.</p>
+      <a href="http://gastonlagourgue.raidghost.com" target="_blank" rel="noopener">View the Website</a>
+    </div>
+</section>
+  
+<section id="projects-work" class="hidden-section">
+    <div class="project">
+      <h3>CaRE</h3>
+      <p>The CaRE program (Cybersecurity, Acceleration, and Resilience of Healthcare Facilities), which I had the 
+        opportunity to lead and co-lead at Resapy, allowed me to learn many new skills. I was involved in audits with 
+        ORADAD, network assessments with SILENE, and team management to implement security solutions. 
+        Due to confidentiality reasons, I am unable to share the results of this project, in order to protect both internal
+        information systems and patient data.</p>
+      <a href="https://esante.gouv.fr/webinaires/programme-care-presentation-du-domaine-1-0" target="_blank" rel="noopener">More about CaRE</a>
+    </div>
+    <div class="project">
+      <h3>HOP'EN 2</h3>
+      <p>I was able to fully lead the HOP’EN 2 program, which is primarily focused on the hospital sector. The work involved addressing the 8 core 
+        usage areas by extracting indicators via SQL and implementing action plans when the percentages were too low.
+        For confidentiality reasons regarding patient data, I am unable to share any results.
+      </p>
+      <a href="https://sante.gouv.fr/systeme-de-sante/e-sante/sih/programme-hop-en/article/hopen-2" target="_blank" rel="noopener">More about HOP'EN 2</a>
+    </div>
+</section>
+  
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-info">
+    <a href="mailto:alexandre.tellez@viacesi.fr">alexandre.tellez@viacesi.fr</a>  
+    <a href="https://www.linkedin.com/in/alexandre-tellez-9b423029a/" target="_blank" rel="noopener">LinkedIn</a>  
+    <a href="https://github.com/ReyseMujeriego" target="_blank" rel="noopener">GitHub</a>
+    <a href="assets/CV_Alexandre_Tellez.pdf" target="_blank" rel="noopener">Download my CV</a>
+  </div>
+</section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
