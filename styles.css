@@ -290,6 +290,14 @@
   margin-top: 20px;
 }
 
+@media (max-width: 600px) {
+  .passions-grid {
+    grid-template-columns: 1fr !important; /* une seule colonne */
+    gap: 15px;
+  }
+}
+
+
   
 .passion-title {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
