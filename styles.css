@@ -115,7 +115,6 @@
       text-shadow: 0 0 16px #4dd0e1, 0 0 24px #1de9b6;
     }
   }
-  /* Responsive */
   @media (max-width: 600px) {
     .skills-list {
       flex-direction: column;
@@ -127,7 +126,7 @@
     }
   }
 
-  /* ==== Background particles ==== */
+
   #networkCanvas {
     position: fixed;
     top: 0; left: 0;
@@ -137,7 +136,7 @@
     pointer-events: none;
     background: transparent;
   }
-  /* Tooltip for nodes */
+
   .tooltip {
     position: fixed;
     background: rgba(29, 233, 182, 0.9);
@@ -170,22 +169,22 @@
 }
 
 .sub-skill {
-  position: relative;       /* Parent relatif */
-  padding-left: 10px;       /* Pour éviter que le texte soit collé au bord */
+  position: relative;       
+  padding-left: 10px;       
   cursor: default;
-  overflow: hidden;         /* Empêche débordement visible */
+  overflow: hidden;        
   max-width: 100%;
   margin-bottom: 12px; 
 }
 
 .sub-skill span {
-  position: relative;       /* Pour garder texte au-dessus */
+  position: relative;      
   z-index: 2;
   transition: opacity 0.3s ease;
 }
 
 .progress-container {
-  position: absolute;       /* Barre en position absolue */
+  position: absolute;       
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -210,7 +209,7 @@
 }
 
 .sub-skill:hover span {
-  opacity: 0.4;            /* Texte plus transparent */
+  opacity: 0.4;           
 }
 
 .sub-skill:hover .percent {
@@ -219,7 +218,7 @@
 
 .percent {
   position: absolute;
-  right: 0;            /* Collé à droite */
+  right: 0;           
   top: 50%;
   transform: translateY(-50%);
   font-weight: bold;
@@ -230,7 +229,7 @@
   width: auto;
   min-width: 30px;
   text-align: right;
-  padding-left: 5px;   /* Un peu d’espace à gauche pour pas coller au bord */
+  padding-left: 5px;   
 }
   
 .skills-grid {
@@ -294,8 +293,8 @@
 @media (max-width: 600px) {
   .passions-grid {
     grid-template-columns: 1fr !important;
-    row-gap: 40px;     /* espace vertical */
-    column-gap: 30px;  /* espace horizontal */
+    row-gap: 40px;     
+    column-gap: 30px; 
   }
   .passion-card {
     padding: 15px;
@@ -312,7 +311,6 @@
 }
 
 
-/* Box sizing global */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -329,21 +327,18 @@
 }
 
 .passion-text {
-  display: block; /* ou inline-block */
-  align-items: unset; /* ou retirer complètement */
+  display: block; 
+  align-items: unset; 
 }
 
 
-  
-/* ===== SOFT‑SKILLS BADGE CLOUD ===== */
 .softskills-cloud {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
   margin-top: 25px;
-  padding-bottom: 50px; /* Ajouté pour éviter que les tooltips soient coupés */
-  margin-top: 100px;
+  padding-bottom: 50px; 
 }
 
 
